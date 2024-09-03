@@ -53,6 +53,7 @@ namespace WPABug
             try
             {
                 MainWindow.StartMe();
+                Debug.WriteLine("Execution Finished");
             }
             catch (Exception err)
             {
