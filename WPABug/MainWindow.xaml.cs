@@ -54,6 +54,8 @@ namespace WPABug
             {
                 MainWindow.StartMe();
                 Debug.WriteLine("Execution Finished");
+                System.Diagnostics.StackTrace trace = new StackTrace();
+                Debug.WriteLine(trace.ToString());
             }
             catch (Exception err)
             {
